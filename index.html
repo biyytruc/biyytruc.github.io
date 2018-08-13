@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>#Cookie Jar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+	content="cookie jar, cake" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Custom Theme files -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <!-- Webfont-->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+    <!-- Banner-->
+    <link rel="stylesheet" href="css/responsiveslides.css">
+    <script src="js/responsiveslides.min.js"></script>
+    <!-- Custom JS files -->
+    <!-- <script src="main.js"></script> -->
+    <!-- Cart-->
+    <script src="js/simpleCart.min.js"></script>
+    <!-- Image Slider -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- header sectionstarts -->
+    <div class="header">  
+        <div class="header-top-strip">
+            <div class="container">
+                <div class="header-top-left">
+                    <ul>
+                        <li><a href=""><span class= "glyphicon glyphicon-user logo-small"></span><span>Login</span></a></li>
+                        <li><a href=""><span class= "glyphicon glyphicon-lock logo-small"></span><span>Create an account</span></a></li>
+                    </ul>
+                </div>
+                <div class="header-top-right">
+                    <div class="box_1">
+                        <a href="">
+                            <h3>
+                                <span class="simpleCart_total"> $0.00 </span> (<span class= "simpleCart_quantity"> 0 </span>) <span class="glyphicon glyphicon-shopping-cart"></span>
+                            </h3>
+                        </a>
+                        <a href="javascript:;" class="simpleCart_empty">Empty cart</a>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar header -->
+    <div class="banner-top">
+        <div class="container">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> <span
+                            class="icon-bar"></span> <span class="icon-bar"></span> <span
+                            class="icon-bar"></span>
+                    </button>
+                    <div class="logo">
+                        <h1>
+                            <a href="index.html">#Cookie-Jar</a>
+                        </h1>
+                    </div>
+                </div>
+                
+
+                <div class="collapse navbar-collapse"
+                    id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">SHOP <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Dessert</a></li>
+                                <li><a href="#">Wedding Cake</a></li>
+                                <li><a href="#">Birthday Cake</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Candy</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
+        </div>
+    </div>
+    <!--banner-->
+    <div class="banner">
+		
+        <ul class="rslides">
+            <li>
+                <div class="slider-image one-image">
+                    <div class="container">
+                        <div class="slider-info">
+                            <h5>100 % NATURAL HOME MADE</h5>
+                            <h4 >#Cookie-Jar Forever</h4>
+                            <div class="shop">
+                                <a href="" class="shop">SHOP NOW</a>
+                            </div>    
+                        </div>
+                    <div>
+                </div>
+            </li>
+            <li>
+                    <div class="slider-image two-image">
+                        <div class="container">
+                            <div class="slider-info">
+                                <h5>ENJOY A DAY WITH CAKE</h5>
+                                <h4 >#Cookie-Jar Forever </h4>
+                                <div class="shop">
+                                    <a href="" class="shop">SHOP NOW</a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+            </li>
+            <li>
+                    <div class="slider-image three-image">
+                        <div class="container">
+                            <div class="slider-info">
+                                <h5>FUN TIME WITH CAKE</h5>
+                                <h4 >#Cookie-Jar Forever</h4>
+                                <div class="shop">
+                                    <a href="" class="shop">SHOP NOW</a>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+            </li>
+        </ul>
+        <script>
+            $(function() {
+                $(".rslides").responsiveSlides({
+                    auto: true,             // Boolean: Animate automatically, true or false
+                    speed: 1000,            // Integer: Speed of the transition, in milliseconds  
+                    pager: false,           // Boolean: Show pager, true or false
+                    nav: false,             // Boolean: Show navigation, true or false
+                });
+            });
+        </script>
+    </div>
+    <!--best seller products-->    
+    <div class="best-products">
+        <div class="container">
+            <div class="products-grid">
+                <header>
+                    <h3 class="head text-center"> Best Seller</h3>
+                </header>
+                <div class="col-md-4 product simpleCart_shelfItem text-center">
+                    <a href="#"><img src="img/dessert16(1).jpg" alt=""></a>
+                    <div class="mask">
+                        <a href="#">Quick View</a>
+                    </div>
+                    <a class="product_name" href="#">Macaron</a>
+					<p>
+						<a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$1.00</span></a>
+					</p>
+                </div>
+                <div class="col-md-4 product simpleCart_shelfItem text-center">
+                    <a href="#"><img src="img/dessert2.jpg" alt=""></a>
+                    <div class="mask">
+                        <a href="#">Quick View</a>
+                    </div>
+                    <a class="product_name" href="#">Chocolate Cheesecake</a>
+					<p>
+						<a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$1.00</span></a>
+					</p>
+                </div>
+                <div class="col-md-4 product simpleCart_shelfItem text-center">
+                    <a href="#"><img src="img/wcake6.jpg" alt=""></a>
+                    <div class="mask">
+                        <a href="#">Quick View</a>
+                    </div>
+                    <a class="product_name" href="#">Chocolate Wedding Cake</a>
+					<p>
+						<a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$10.00</span></a>
+					</p>
+                </div>
+                <div class="col-md-4 product simpleCart_shelfItem text-center">
+                    <a href="#"><img src="img/bcake5.jpg" alt=""></a>
+                    <div class="mask">
+                        <a href="#">Quick View</a>
+                    </div>
+                    <a class="product_name" href="#">Mint Birthday Cake</a>
+					<p>
+						<a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$6.00</span></a>
+					</p>
+                </div>
+                <div class="col-md-4 product simpleCart_shelfItem text-center">
+                    <a href="#"><img src="img/dessert13.jpg" alt=""></a>
+                    <div class="mask">
+                        <a href="#">Quick View</a>
+                    </div>
+                    <a class="product_name" href="#">Pink Velvet Swiss Roll</a>
+					<p>
+						<a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$1.50</span></a>
+					</p>
+                </div>
+                <div class="col-md-4 product simpleCart_shelfItem text-center">
+                    <a href="#"><img src="img/dessert7.jpg" alt=""></a>
+                    <div class="mask">
+                        <a href="#">Quick View</a>
+                    </div>
+                    <a class="product_name" href="#">RED VELVET CAKE MINIS</a>
+					<p>
+						<a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$1.70</span></a>
+					</p>
+                </div>
+                <div class="col-md-4 product simpleCart_shelfItem text-center">
+                    <a href="#"><img src="img/dessert5.jpg" alt=""></a>
+                    <div class="mask">
+                        <a href="#">Quick View</a>
+                    </div>
+                    <a class="product_name" href="#">Chocolate Hazelnut Crepe Cake</a>
+					<p>
+						<a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$2.00</span></a>
+					</p>
+                </div>
+                <div class="col-md-4 product simpleCart_shelfItem text-center">
+                    <a href="#"><img src="img/c7.jpg" alt=""></a>
+                    <div class="mask">
+                        <a href="#">Quick View</a>
+                    </div>
+                    <a class="product_name" href="#">Chocolate Candy</a>
+					<p>
+						<a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$1.00</span></a>
+					</p>
+                </div>
+                <div class="col-md-4 product simpleCart_shelfItem text-center">
+                    <a href="#"><img src="img/dessert14.jpg" alt=""></a>
+                    <div class="mask">
+                        <a href="#">Quick View</a>
+                    </div>
+                    <a class="product_name" href="#">Chocolate donut</a>
+					<p>
+						<a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$1.00</span></a>
+					</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+       
+    
+
+    <!--other products-->         
+    <div class="other-products">
+        <div class="container">
+            <header>
+                <h3 class="like text-center"> Follow Me For More Bites</h3>
+            </header>
+            <ul id="flexiselDemo3">
+                <li>
+                    <a href="#"><img src="img/dessert4.jpg" class="img-responsive" alt=""></a>
+                    <div class="product like-product simpleCart_shelfItem text-center">
+                        <a class="like_name" href="#">Pancake</a>
+                        <p>
+                            <a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$2.00</span></a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><img src="img/c10.jpg" class="img-responsive" alt=""></a>
+                    <div class="product like-product simpleCart_shelfItem text-center">
+                        <a class="like_name" href="#">Sugar Candy</a>
+                        <p>
+                            <a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$0.50</span></a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><img src="img/dessert9.jpg" class="img-responsive" alt=""></a>
+                    <div class="product like-product simpleCart_shelfItem text-center">
+                        <a class="like_name" href="#">Vanilla cupcake</a>
+                        <p>
+                            <a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$1.50</span></a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><img src="img/dessert1.jpg" class="img-responsive" alt=""></a>
+                    <div class="product like-product simpleCart_shelfItem text-center">
+                        <a class="like_name" href="#">Fruit Cookie</a>
+                        <p>
+                            <a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$0.70</span></a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><img src="img/dessert8.jpg" class="img-responsive" alt=""></a>
+                    <div class="product like-product simpleCart_shelfItem text-center">
+                        <a class="like_name" href="#">Lemon Fruit Cupcake</a>
+                        <p>
+                            <a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$1.00</span></a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><img src="img/wcake7.jpg" class="img-responsive" alt=""></a>
+                    <div class="product like-product simpleCart_shelfItem text-center">
+                        <a class="like_name" href="#">Wedding Cake</a>
+                        <p>
+                            <a class="item_add" href="#"><i> <span class="glyphicon glyphicon-shopping-cart"></span>  </i> <span class="item_price">$200.00</span></a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <script type="text/javascript">
+                $(window).load(function() {
+                    $("#flexiselDemo3").flexisel({
+                        visibleItems: 4,
+                        itemsToScroll: 1,         
+                        autoPlay: {
+                            enable: true,
+                            interval: 1500,
+                            pauseOnHover: true
+                        },   
+                        responsiveBreakpoints : {
+                            portrait : {
+                                changePoint : 480,
+                                visibleItems : 1
+                            },
+                            landscape : {
+                                changePoint : 640,
+                                visibleItems : 2
+                            },
+                            tablet : {
+                                changePoint : 768,
+                                visibleItems : 3
+                            }
+                        }
+                    });
+
+                });
+            </script>
+        </div>
+    </div>  
+    <!--online strip--> 
+    <div class="online-strip">
+        <div class="container">
+                <div class="col-md-4 text-center">
+                    <div class="onl-img">
+                        <img src="img/1.png" alt="">
+                    </div>
+                    
+                    <div class="onl-text">
+                        <h3>New Pick Up Service</h3>
+                        <p>Get it fresh</p>
+                    </div> 
+                </div>
+                <div class="col-md-4 shipping-grid text-center">
+                    <div class="onl-img ">
+                        <img src="img/2.png" alt="">
+                    </div>
+                    <div class="onl-text">
+                        <h3>Free Shipping</h3>
+                        <p>On orders over $10</p>
+                    </div> 
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="onl-img">
+                        <img src="img/3.png" alt="">
+                    </div>
+                    <div class="onl-text">
+                        <h3>Special Gift Wrap</h3>
+                        <p>Send a sweet surprise</p>
+                    </div> 
+                </div>
+        </div>
+    </div>
+<!--info bottom--> 
+<div class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="col-md-3 one-of-info">
+                <h3>SHOP</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping / Pick Up</a></li>
+                    <li><a href="#">Store Policy</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 one-of-info">
+                <h3>OPENING HOUR</h3>
+                <p>
+                    Mon - Fri: 7am - 10pm<br>
+                    Saturday: 8am - 10pm<br>
+                    Sunday: 8am - 11pm<br>
+                </p>
+            </div>
+            <div class="col-md-3 one-of-info">
+                <h3>ADDRESS</h3>
+                <p>
+                    500 Hai Ba Trung Street,District 1, TPHCM <br>
+                    Tel: 123-456-7890  
+                </p>
+            </div>
+            <div class="col-md-3 one-of-info">
+                <h3>GET IT FRESH</h3>
+                <form>
+                    <input class="email text-center" type="text" value="Email Address"
+                        onfocus="this.value = '';"
+                        onblur="if (this.value == '') {this.value = 'Email Address';}" />
+                    <input class="subcrise text-center" type="submit" value="SUBCRISE NOW">
+                </form>
+            </div>
+        </div>
+        <div class="col-md-12 footer-bottom">
+            <div class="copyright">
+                    <p>
+                        © 2018 by Biyytruc
+                    </p>
+            </div>
+            <div class="follow">
+                <ul>
+                    <li><a href="#" class="fa fa-instagram social-icon"></a></li>
+                    <li><a href="#" class="fa fa-facebook social-icon"></a></li>
+                    <li><a href="#" class="fa fa-twitter social-icon"></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+    
+            
+            
+                
+            
+	    
+	
+</body>
+</html>
